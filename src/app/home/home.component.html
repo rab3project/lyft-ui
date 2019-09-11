@@ -24,8 +24,11 @@
             </div>
 
             <div class ="jumbotron ">
-                <br><button class="btn btn-outline-secondary btn-md">APPLY DRIVER</button>
-
+               <!----- <br><button class="btn btn-outline-secondary btn-md" (click)="onclickDriver()">APPLY DRIVER</button>-->
+                <a routerLinkActive="active"
+                 class= "nav-link"
+                  routerLink="/signUp"><button class="btn btn-outline-secondary btn-md"
+                  (click)="onclickDriver()" >APPLY DRIVER</button></a>
 
               </div>
 
