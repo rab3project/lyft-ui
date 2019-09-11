@@ -1,11 +1,9 @@
 
-
-
 .container {
-
-  background-attachment: fixed;
+  background-size : 100% 100%;
+  background-attachment:fixed;
   max-width:100%;
-  height : auto;
+  height:650px;
 }
 
 .centered {
@@ -16,12 +14,6 @@
   transform: translate(-50%, -50%);
 
 }
-.jumbotron {
-  margin-bottom: 0;
-}
-
-
-.btn-lg {
-  width: 100%;
-  margin-bottom: 35px;
+li:hover {
+  color:grey;
 }
