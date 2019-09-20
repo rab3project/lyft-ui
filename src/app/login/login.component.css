@@ -1,0 +1,33 @@
+.bc{
+    background-color: gray;
+}
+.container{
+    background-color: lightseagreen;
+    border-style: solid;
+    border-color: rgb(57, 19, 92);
+    width: 500px;
+    height: auto;
+}
+input{
+    margin: 5px;
+}
+
+.backImg{
+    
+    background-image: url('download.png');
+    
+}
+
+#textCss{
+    text-align: center;
+    color:green;
+    direction: center;
+    background-color: gainsboro;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    border:  solid purple;
+    width: 170px;
+    height: 30px;
+   
+
+}

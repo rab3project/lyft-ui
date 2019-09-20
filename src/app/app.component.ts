@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'uber';
   loadedFeature = 'home';
 
+ 
+
 
   onNavigate(feature: string) {
     this.loadedFeature = feature;
