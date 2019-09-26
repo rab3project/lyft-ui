@@ -18,13 +18,10 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input required ngModel name="password" type="text" id="password" class="form-control" #pname="ngModel">
-            <div class="alert alert-danger" *ngIf="!pname.valid &&  pname.touched">
-
-                    Password required !!!
-                </div>
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+                   minlength="8" required>
         </div>
         
 
@@ -55,9 +52,10 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input required ngModel name="password" type="text" id="password" class="form-control" #lname="ngModel">
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+                   minlength="8" required>
         </div>
         <div class="alert alert-danger" *ngIf="!lname.valid &&  lname.touched">
 
